@@ -24,29 +24,29 @@
                 <div id="subtitle">
 
                     <h2 class="subtitle">Nombre:</h2>
-                    <input class="name" type="text" name="Name"><br><br>
+                    <input class="name" type="text" name="Name" maxlength="25"><br><br>
                     <label class="labelname">Nombre</label>
-                    <input class="lastname" type="text" name="lastname">
+                    <input class="lastname" type="text" name="lastname" maxlength="25">
                     <label class="labellastname">Apellido</label>                    
                 </div>
 
                 <h2 class="subtitle">ID User:</h2>
-                <input class="IU" type="text" name="IDUser" autocomplete="off">
+                <input class="IU" type="number" name="IDUser" min="0" max="99999999999">
 
                 <h2 class="subtitle">Cuenta:</h2>
-                <input class="account" type="text" name="Account">
+                <input class="account" type="text" name="Account" maxlength="20">
                     
                 <h2 class="subtitle">Contraseña:</h2>
                 <input class="password" type="password" name="Password">
                 
                 <h2 class="subtitle">Direccion:</h2>
-                <input class="direccion" type="text" name="direccion">
+                <input class="direccion" type="text" name="direccion" maxlength="40">
 
                 <h2 class="subtitle">Email:</h2>
-                <input class="email" type="email" name="email">
+                <input class="email" type="email" name="email" maxlength="120">
 
                 <h2 class="subtitle">Teléfono:</h2>
-                <input class="number" type="text" name="phone"> 
+                <input class="number" type="number" name="phone" min="0" max="99999999999999999999"> 
                 <label class="labelnumber">Numero Telefónico</label>
 
                 <h2 class="subtitle"> Pais: </h2>

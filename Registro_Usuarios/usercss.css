@@ -115,6 +115,13 @@ form{
     padding: 0 22px;
     font-size: 16px;
 
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
 }
 
 .account{
@@ -217,12 +224,6 @@ form{
 .option option{
 
     font-size: 20px;
-
-}
-
-.boton{
-
-    left: 1000px;
 
 }
 
